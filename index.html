@@ -7,15 +7,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   </head>
   <body>
-    <header>
+    <div class="container">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header"><a href="#" class="navbar-brand">Jade Demo</a></div>
-          <div id="navbar" class="navbar-collapse collapse"></div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav nav-bar">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
-    </header>
+    </div>
     <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to the Jade Demo</h1>
+        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+      </div>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
       <input type="email" placeholder="Your email">
       <input type="submit">
